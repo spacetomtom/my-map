@@ -61,7 +61,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/garticphone.com\/fr"
+                 "value":"https:\/\/skribbl.io\/"
                 }],
          "type":"tilelayer",
          "visible":true,
