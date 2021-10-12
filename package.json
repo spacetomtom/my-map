@@ -18,9 +18,8 @@
   "scripts": {
     "start": "webpack serve --open",
     "build": "webpack --config webpack.prod.js",
-    "lint": "vue-cli-service lint",
-    "doc": "echo \"WARNING: NO DOCUMENTATION DEFINED\" && mkdir --parents ./dist/doc",
-    "prepare": "run-s clean build",
-    "clean": "git clean -xdf lib/ dist/"
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json",
+    "lint": "node_modules/.bin/eslint src/ . --ext .ts",
+    "fix": "node_modules/.bin/eslint --fix src/ . --ext .ts"
   }
 }
